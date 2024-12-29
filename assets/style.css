@@ -34,6 +34,10 @@ body {
     font-size: 1rem;
 }
 
+.border {
+    border-right: 2px solid var(--black);
+}
+
 /* HEADER SECTION */
 header {
     width: 100%;
@@ -111,7 +115,6 @@ nav li:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 2px solid var(--black);
     border-bottom: 2px solid var(--black);
     transition: 0.3s ease-in;
 }
@@ -223,7 +226,6 @@ nav li:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: start;
-    border-right: 2px solid var(--black);
     padding: 5rem;
 }
 
@@ -244,7 +246,6 @@ nav li:nth-child(2) {
     justify-content: center;
     color: var(--white);
     background-color: var(--black);
-    border-right: 2px solid var(--black);
 }
 
 .aside-2:hover {
@@ -300,7 +301,7 @@ nav li:nth-child(2) {
     align-items: center;
     justify-content: center;
     height: 100%;
-    border-right: 2px solid var(--black);
+    /* border-right: 2px solid var(--black); */
     text-align: center;
 }
 
@@ -328,4 +329,65 @@ nav li:nth-child(2) {
     font-size: 1.8rem;
     cursor: pointer;
     border-radius: 10px;
+}
+
+/* Footer Section */
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid var(--black);
+    overflow: hidden;
+}
+
+.my-info {
+    flex: 1 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.3s ease-in;
+    border-right: 2px solid var(--black);
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.my-info:hover {
+    flex: 1 0 50%;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.my-info h4 {
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+.my-info li {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.copyright {
+    flex: 1 0 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    transition: 0.3s ease-in;
+    font-size: 5rem;
+    color: var(--white);
+    background-color: var(--black);
+    height: 16.2vh;
+}
+
+.copyright:hover {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.copyright h4 {
+    font-size: 4rem;
+    margin-top: 2rem;
 }
